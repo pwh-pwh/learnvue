@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--    错误做法：这里不可以使用mustache语法
+    <img src="{{imgURL}}"/>-->
+<!--    <img v-bind:src="imgURL"/>-->
+    <img :src="imgURL"/>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: "#app",
+        data: {
+            message: 'hello vue',
+            imgURL: 'http://14.152.95.90:8090/aHR0cHM6Ly9pbWcyMDE4LmNuYmxvZ3MuY29tL2Jsb2cvMTYyNTM2MS8yMDE5MDMvMTYyNTM2MS0yMDE5MDMyNTIxNTMyNDQ0OC0xMzY1MTM2OTMzLnBuZw%3D%3D.png?w=700'
+        }
+    })
+</script>
+</body>
+</html>

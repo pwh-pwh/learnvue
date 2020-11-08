@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .active {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+<div id="app">
+<!--    虽然给isActive数据中各个位置赋值了，
+    但是isActive还是指向原来的数组地址，
+    只是数组的内容发生了变化，所以isActive的值并没有变，
+    所以页面没有监听到isActive值发生变化，也就为什么没有及时刷新页面数据。
+    解决方法：每次要变换isActive的数据时，创建新的_isActive并赋值，然后isActive=_isActive
+    -->
+    <ul>
+        <li  v-bind:class="{active: isActive[index]}" v-for="(item,index) in movies" v-on:click="changeColor(index)">{{item}}</li>
+    </ul>
+    <button v-on:click="allRed">All Red</button>
+
+    <ul>
+        <li  v-bind:class="{active: num==index}" v-for="(item,index) in movies" v-on:click="changeNum(index)">{{item}}</li>
+    </ul>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: "#app",
+        data: {
+            message: 'hello vue',
+            movies: ['海王','海尔现代','黑客帝国','杀手'],
+            isActive: [false,true,false,false],
+            num: 0
+        },
+        methods: {
+            changeColor: function (index){
+                var _isActive=[];
+                for (let i = 0; i < this.isActive.length; i++) {
+                    _isActive[i]=false
+                }
+                _isActive[index]=true
+                this.isActive=_isActive
+
+            },
+            allRed: function () {
+                var _isActive=[]
+                for (let i = 0; i < this.isActive.length; i++) {
+                    _isActive[i]=true;
+
+                }
+                this.isActive=_isActive
+
+            },
+            changeNum: function (index) {
+                this.num=index
+            }
+
+
+        }
+    })
+</script>
+</body>
+</html>
