@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed6301db-a40b-4cba-ae76-e240caeae2d7" name="Default Changelist" comment="" />
+    <list default="true" id="ed6301db-a40b-4cba-ae76-e240caeae2d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-ES6补充/01-块级作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-ES6补充/02-对象字面量的增强写法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04计算属性/03计算属性的setter和getter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04计算属性/04计算属性和methods的对比.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05事件监听/01v-on基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05事件监听/02v-on参数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05事件监听/03v-on修饰符的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06条件判断/01-v-if的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06条件判断/02v-if和v-else的结合使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06条件判断/03v-if和v-else-if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06条件判断/04用户登录切换的小案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06条件判断/05案例问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06条件判断/06v-show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07循环遍历/01v-for遍历数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07循环遍历/02v-for遍历对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07循环遍历/03v-for绑定key.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07循环遍历/04数组中那些方法是响应式的.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08书籍购物车案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08书籍购物车案例/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08书籍购物车案例/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09v-model的使用/01v-model的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09v-model的使用/02v-model的原理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09v-model的使用/03v-model结合radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09v-model的使用/04v-model结合checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09v-model的使用/05v-model结合select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09v-model的使用/06v-model修饰符的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/01-vue组件化的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/02全局组件和局部组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/03父组件和子组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/04组件的语法糖注册方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/05组件模板抽离.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/06组件数据存放问题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +46,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jxX8HoAe5ifLccfl88gu1rmGdJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,12 +73,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\CH\WebstormProjects\Vue\LearnVuejs01\笔记" />
       <recent name="D:\Users\CH\WebstormProjects\Vue\LearnVuejs01\js" />
     </key>
   </component>
@@ -50,7 +103,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604746555862</updated>
-      <workItem from="1604746556939" duration="24524000" />
+      <workItem from="1604746556939" duration="27521000" />
+      <workItem from="1605069211742" duration="9583000" />
+      <workItem from="1605315486404" duration="15998000" />
+      <workItem from="1605971417519" duration="28663000" />
     </task>
     <servers />
   </component>
@@ -58,17 +114,41 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="872" y="238" key="#Notifications" timestamp="1606271639472">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="872" y="238" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1606271639472" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604747492747">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604747492747" />
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1604935690712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604935690712" />
+    <state x="606" y="312" key="Gitee.ShareDialog" timestamp="1604849969887">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="606" y="312" key="Gitee.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1604849969887" />
     <state x="1000" y="312" key="Github.ShareDialog" timestamp="1604849786507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1000" y="312" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1604849786507" />
-    <state x="270" y="57" key="SettingsEditor" timestamp="1604801152545">
+    <state x="909" y="119" key="Github.UntrackedFilesDialog" timestamp="1604849798253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604801152545" />
+    <state x="909" y="119" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604849798253" />
+    <state x="297" y="5" width="1239" height="710" key="SettingsEditor" timestamp="1605086427787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="297" y="5" width="1239" height="710" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605086427787" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606274382097">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606274382097" />
+    <state x="794" y="190" width="672" height="677" key="run.anything.popup" timestamp="1606271051775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="794" y="190" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1606271051775" />
   </component>
 </project>

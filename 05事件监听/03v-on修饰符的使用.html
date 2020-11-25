@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <h2>{{message}}</h2>
+ <!-- .stop修饰符的使用-->
+  <div v-on:click="divclick">
+    <button v-on:click="btnclick">按钮</button>//先打印btn后打印div事件冒泡
+  </div>
+  <hr>
+  <div v-on:click="divclick">
+    dib
+    <button @click.stop="btnclick">按钮2</button>//.stop修饰符阻止冒泡
+  </div>
+  <br>
+<!--  .prevent的使用-->
+  <form action="www.baidu.com">
+    <input type="submit" value="提交" @click="submitclick">
+    <input type="submit" value="提交" @click.prevent="submitclick">
+  </form>
+<!--  监听键盘的点击-->
+  <input type="text" v-on:keyup="keyup">
+  <input type="text" v-on:keyup.enter="keyup">
+  <br>
+<!--  once的使用-->
+  <button @click="btn2">按钮</button>
+  <button @click.once="btn2">按钮,只能点一次</button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: "#app",
+    data: {
+      message: "hello vue"
+    },
+    methods: {
+      divclick() {
+        console.log('div')
+      },
+      btnclick() {
+        console.log('btn')
+      },
+      submitclick() {
+        console.log('submitclick')
+      },
+      keyup() {
+        console.log('keyup')
+      },
+      btn2() {
+        console.log('btn2')
+      }
+    }
+  })
+</script>
+</body>
+</html>

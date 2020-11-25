@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>按钮</button>
+<button>按钮</button>
+<button>按钮</button>
+<button>按钮</button>
+<button>按钮</button>
+<script>
+//es5中var没有块级作用域
+//es6中let有块级作用域
+var button = document.getElementsByTagName("button");
+for (let i = 0; i < button.length; i++) {//改成var不行，因为无块级作用域，function中引用的相当为外部的i;
+    button[i].addEventListener('click',function () {
+        console.log('按钮'+i+'被点击')
+
+    })
+}
+</script>
+</body>
+</html>

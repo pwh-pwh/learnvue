@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <h2>{{message}}</h2>
+  <button @click="btn1">1</button>
+  <button @click="btn1()">2</button>
+  <button @click="btn2(123)">3</button>
+  <button @click="btn2()">4</button>
+  <button @click="btn2">5</button>
+<!--  使用$event手动获取event对象-->
+  <button @click="btn3(123,$event)">6</button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: "#app",
+    data: {
+      message: "hello vue"
+    },
+    methods: {
+      btn1() {
+        console.log('btn')
+      },
+      btn2(a) {
+        console.log(a,'-------')
+      },
+      btn3(abc,event) {
+        console.log('_____',abc, event);
+      }
+    }
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <h2>{{message}}</h2>
+<!--  单个-->
+  <select name="abc" id="" v-model="fruit">
+    <option value="苹果">苹果</option>
+    <option value="李子">李子</option>
+    <option value="梨">梨</option>
+  </select>
+
+  <select name="abc"  v-model="fruits" multiple>
+    <option value="苹果">苹果</option>
+    <option value="李子">李子</option>
+    <option value="梨">梨</option>
+  </select>
+  <h2>{{fruit}}</h2>
+  <h2>{{fruits}}</h2>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: "#app",
+    data: {
+      message: "hello vue",
+      fruit: 'aaa',
+      fruits: []
+    }
+  })
+</script>
+</body>
+</html>
