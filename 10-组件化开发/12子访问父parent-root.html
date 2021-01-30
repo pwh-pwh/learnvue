@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <h2>{{message}}</h2>
+  <cpn></cpn>
+</div>
+<template id="cpn">
+  <div>
+    <p>大组件</p>
+    <ccpn></ccpn>
+  </div>
+</template>
+<template id="ccpn">
+  <div>
+    <p>小组件</p>
+    <button @click="btnclick">按钮</button>
+  </div>
+</template>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: "#app",
+    data: {
+      message: "hello vue"
+    },
+    components: {
+      cpn: {
+        template: "#cpn",
+        components: {
+          ccpn: {
+            template: "#ccpn",
+            methods: {
+              btnclick() {
+                /*$parent访问父节点   $root访问根节点*/
+                //console.log(this.$parent.name);
+                console.log(this.$root.message);
+
+              }
+            }
+          }
+        },
+        data() {
+          return {
+            name: '发飞机哦好吧'
+          }
+        }
+
+      }
+
+    }
+  })
+</script>
+</body>
+</html>
