@@ -1,10 +1,12 @@
 const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const Uglifyjs = require('uglifyjs-webpack-plugin')
 module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname,'dist'),
     filename: 'bundle.js',
-    publicPath: 'dist/'
+    // publicPath: 'dist/'
   },
   module: {
     rules: [
@@ -46,6 +48,10 @@ module.exports = {
             presets: ['es2015']
           }
         }
+      },
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
       }
     ]
   },
@@ -53,5 +59,15 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js'
     }
+  },
+  plugins: [
+      new HtmlWebpackPlugin({
+        template: 'index.html'
+      }),
+      new Uglifyjs()
+  ],
+  devServer: {
+    contentBase: './dist',
+    inline: true
   }
 }

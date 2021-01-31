@@ -1,54 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed6301db-a40b-4cba-ae76-e240caeae2d7" name="Default Changelist" comment="new2">
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/10双向绑定案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/11父访问子.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/12子访问父parent-root.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11组件化高级/01slot的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11组件化高级/02具名slot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11组件化高级/03编译作用域.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11组件化高级/04作用域插槽.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12前端模块化/01ES6的模块化实现/aaa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12前端模块化/01ES6的模块化实现/bbb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12前端模块化/01ES6的模块化实现/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12前端模块化/01ES6的模块化实现/mmm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/01webpack的起步/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/01webpack的起步/src/info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/01webpack的起步/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/01webpack的起步/src/mathUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/02webpack的配置/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/02webpack的配置/src/js/info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/02webpack的配置/src/js/mathUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/02webpack的配置/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/02webpack的配置/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/dist/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/src/css/normal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/src/css/special.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/src/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/src/img/微信图片_20201212100830.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/src/js/info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/src/js/mathUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/03webpack的loader/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/dist/ba69cbd9a5eef8402f5f1fbc3b57507e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/dist/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/dist/img/微信图片_20201212100830.ba69cbd9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/src/css/normal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/src/css/special.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/src/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/src/img/微信图片_20201212100830.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/src/js/info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/src/js/mathUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/webpack.config.js" afterDir="false" />
+    <list default="true" id="ed6301db-a40b-4cba-ae76-e240caeae2d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/src/vue/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/src/vue/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/13webpack的使用/04webpack配置vue/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +21,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Less File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -139,7 +102,8 @@
       <workItem from="1610716466940" duration="2546000" />
       <workItem from="1611933761832" duration="22000" />
       <workItem from="1611969955785" duration="242000" />
-      <workItem from="1611970302235" duration="7307000" />
+      <workItem from="1611970302235" duration="8008000" />
+      <workItem from="1612055599147" duration="7424000" />
     </task>
     <task id="LOCAL-00001" summary="new1">
       <created>1606274501476</created>
@@ -155,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606318758443</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new2">
+      <created>1611977989716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611977989716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
